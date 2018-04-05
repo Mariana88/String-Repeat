@@ -13,8 +13,6 @@ repeatedString <- repeatedStringArr.join
 Function which uses a for loop to create an array with as many elements as provided in the function's given argument (passed). The content of the element will be the string itself. Then group back all elements of the created array into a new larger string by using .join
 
 
-(Explain this solution.  Be sure to compare and contrast it to your other solutions, as well as the other people's solutions you studied.)
-
 ___
 
 ### Language Feature:
@@ -36,7 +34,7 @@ stringRepeat (string, number)
 
 Use for loop  and concatenate the string with +=
 
-
+Implementing solution 2 for I believe it to be the simplest and easiest to maintain
 
 
 ___
