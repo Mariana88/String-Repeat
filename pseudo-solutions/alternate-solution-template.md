@@ -1,18 +1,78 @@
 # Alternate Solution 1 
 ```
-pseudocode solution goes here
-```
+repeatedStringArr <- []
+stringRepeat (string, number)
+```for an amount of times = number
+    push string to repeatedStringArr
+repeatedString <- repeatedStringArr.join
+
 ---
 
 ### Solution Explained:
 
-Explain this solution.  Be sure to compare and contrast it to your other solutions, as well as the other people's solutions you studied.
+Function which uses a for loop to create an array with as many elements as provided in the function's given argument (passed). The content of the element will be the string itself. Then group back all elements of the created array into a new larger string by using .join
+
+
+(Explain this solution.  Be sure to compare and contrast it to your other solutions, as well as the other people's solutions you studied.)
 
 ___
 
 ### Language Feature:
 
-Explain the language features you used.
+* for loop
+* array function push()
+* array function .join
+
+# Alternate Solution 2
+```
+repeatedString <-string
+stringRepeat (string, number)
+  for an amount of times = number
+  repeatedString += string
+
+---
+
+### Solution Explained:
+
+Use for loop  and concatenate the string with +=
+
+
+
+
+___
+
+### Language Feature:
+
+for loop
+string concatenation +=
+
+# Alternate Solution 3
+```
+stringSize <- string.length
+newStringSize <- stringSize * number
+newString <- string
+stringRepeat (string, number)
+  while newString.lenght < newStringSize
+  newString += string
+
+---
+
+### Solution Explained:
+
+Detect string lenght and calculate the length of the string we want to create by multiplying the string length by the given number. Then use a while loop  to concatenate the string with += until the length of the new string has not yet reached the intended size.
+
+
+
+
+___
+
+### Language Feature:
+
+.length
+multiplication
+while loop
+string concatenation +=
+
 
 ___
 ___
