@@ -7,6 +7,7 @@ function stringRepeat (string, val) {
     repeatedString += string;
     return repeatedString;
   }
+}
 
 
 
