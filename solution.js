@@ -3,7 +3,7 @@
 var repeatedString;
 function stringRepeat (string, val) {
   repeatedString = string;
-  for (i=0, i < val, i++) {
+  for (i=0; i < val; i++) {
     repeatedString += string;
     return repeatedString;
   }
