@@ -13,16 +13,16 @@ repeatedString <- repeatedStringArr.join
 Function which uses a for loop to create an array with as many elements as provided in the function's given argument (passed). The content of the element will be the string itself. Then group back all elements of the created array into a new larger string by using .join
 
 
-___
-
 ### Language Feature:
 
 * for loop
 * array function push()
 * array function .join
 
+
 # Alternate Solution 2
-```
+---
+
 repeatedString <-string
 stringRepeat (string, number)
   for an amount of times = number
