@@ -14,7 +14,7 @@ tests({
   '': function() {
     eq("", solution(""));
   },
-  '' function() {
+  '': function() {
     eq("", solution(""));
   },
   '': function() {
